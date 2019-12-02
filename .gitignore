@@ -1,0 +1,12 @@
+
+starter-template/
+
+settings\.json
+
+*.pyc
+
+\.idea/
+
+\.DS_Store
+/cluster_settings.json
+/settings.json

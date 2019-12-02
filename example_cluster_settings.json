@@ -1,0 +1,6 @@
+{
+    "token": "yourtokenhere",
+    "clusters": 1,
+    "path": "/path/to/CirkeltrekBot",
+    "cluster_names": ["Cluster 1"]
+}

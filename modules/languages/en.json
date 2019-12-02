@@ -1,0 +1,191 @@
+{
+    "commands": {
+        "ban": {
+            "banned": "%s is kneitherhard in de prullenbak gemikt!",
+            "ban_reason": "%s is vanwege deze reden oerand hard weggesmeten: \"%s\"",
+            "above": "Denk jij hebben superioriteitscomplex? Je kan geen mensen verbannen met een hogere rol dan jij!",
+            "above_bot": "Ik kon dit lid niet verbannen, heeft Haan me weer gesloopt?",
+            "no_perms": "Alsof jij ooit banrechten krijgt pik!",
+            "no_perms_bot": "g e e f   b a n r e c h t e n",
+            "self": "Anti-Dronken: Beste niet uzelf verbannen is niet gezellig!"
+        },
+        "kick": {
+            "kicked": "%s is door een flinke trap onder z'n aars van de ober getrapt!",
+            "kick_reason": "%s is om de volgende reden hardhandig van de ober verwijderd: \"%s\"",
+            "above": "Je mag geen leden trappen met een hogere rol dan jij! Ik vrees dat je zal moeten proberen ze weg te pesten.",
+            "above_bot": "Ik kon dit lid niet trappen, heeft Paard me weer gesloopt?",
+            "no_perms": "Je mag mensen niet trappen. Stadthouders hebben een geweldsmonopolie!",
+            "no_perms_bot": "g e e f   t r a p  r e c h t e n",
+            "self": "Anti-Dronken: Druk gewoon op verlaat ober luilak!"
+        },
+        "info": {
+            "stats": "Statistieken",
+            "python": "Python Versie",
+            "d_py_version": "discord.py Version",
+            "owner": "Eigenaar",
+            "ping": "Vertraging",
+            "id": "Mijn ID: %s",
+            "users": "Users",
+            "desc": "Onze persoonlijke knecht!"
+        },
+        "ping": "Tek me niet klootzak. Ping is %sms",
+        "user_info": {
+            "creation": "Gemaakt op",
+            "join": "Binnengetreden op",
+            "status": "Status",
+            "owner": "Haan",
+            "yes": ":allicht:",
+            "time": "%a, %-d %b %Y om %H:%M:%S GMT"
+        },
+        "help": {
+            "title": "Hellup",
+            "desc": "Onze robot stadthouder.\n[arg] betekent dat je dit argument moet invoeren.\n<arg> betekent dat het optioneel is.",
+            "page": "Pagina %s/3 - Gemaakt door: Auxim#0001",
+            "tip": "Tip",
+            "tips": [
+                "Burgerij-leden missen een hoop sappige stadthouder meems. Stadthouder worden? Vette pech. We zitten vol!",
+                "Als je spanjool krijgt kan je die beter niet van Stoelpoot krijgen. Hij is niet actief en gaat je geheit vergeten!",
+                "Alva is nog kutter dan spanjool. Je mag zelfs niet eens in de schijtpaal praten. Probeer het te voorkomen!",
+                "Op de Dag des Heeres is de CirkeltrekBot gesloten. Spanjool op Zondag kan dus niet worden opgeheven. Neem maandag tijdens kantooruren contact op met uw plaatselijke vertegenwoordiger.",
+                "Ik kan helaas geen muziek afspelen. Dat is maar goed ook, jouw takkeherrie kost een hoop bandbreedte!",
+                "WATTT!!! JE SPEELT NOG NIET STADT SIMULATOR! PFFFT. JE WEET DAT HET LEUK IS TOCH? IK BEDOEL IK HOOR MIJN MENING NIET TE GEVEN, MAAR PROBEER HET GEWOON!",
+                "Als Haan en/of Paard hoog zijn kan je beter een andere stadthouder zoeken!",
+                "j",
+                "Tellen verneuken kost Burgerij!",
+                "H E L P   A D M I N   I K   K A N   N I E T   S T A A N",
+                "AIVD. Daar red je obers mee!",
+                "Gebruik @everyone om 3 uur s'nachts voor maximaal effect.",
+                "kip20",
+                "H U T S",
+                "Drommels, Drommels en nog eens Drommels",
+                "Koektrommel is bij verre de strengste Stadthouder. Je kan hem echter makkelijk om de tuin leiden door hem in de schijtpaal te tekken en dan in een ander kanaal verder te kloten.",
+                "Anglesex speaken is by strongest forbidden and you will be spanjoleerd",
+                "Foutje moet kunnen baas!",
+                "Is je huiswerk al af?",
+                "Laten we eerlijk zijn. Zoutelande is best wel een lekker nummertje.",
+                "Op Vliegbasis Volkel bevinden zich dubbele frikandelbroodjes. Ik stel voor een bestorming te starten.",
+                "Stadthouders hebben een uitzondering op de Spanjoolwetten en mogen alle acties ondernemen als ze spanjool zijn!",
+                "MeT kOp DiChT wOrDt NoOiT gEmEeMd",
+                "Al meer dan 400 bans!"
+            ],
+            "doesnt_exist": "Oentik. Die pagina bestaat niet!",
+            "no_args": "Dit commando heeft geen extra argumenten!",
+            "no_perms": "Geen permissies nodig voor dit commando!",
+            "requested_by": "Aangevraagd door %s",
+            "usage": "Gebruik",
+            "aliases": "Aliases",
+            "perms": "Permissies",
+            "cmd_desc": "Beschrijving",
+            "no_usage": "ne",
+            "no_desc": "Geen lange beschrijving voor dit commando gevonden!",
+            "commands": {
+                "ban": {
+                    "usage": "[lid] <dagen> <reden>",
+                    "permissions": "VERBAN LEDEN",
+                    "short": "Deponeert een lid professioneel in de prullenbak",
+                    "long": "Verbant iemand van de server. Je kan een vermelding, naam of ID gebruiken om een lid te kizen. Bijvoorbeeld: ;ban Koektrommel\nJe kan ook instellen hoeveel dagen aan berichten je wilt laten verwijderen, tussen 1 en 7. Als laatste kan je ook een reden bijsluiten voor het Audit-Logboek."
+                },
+                "kick": {
+                    "usage": "[lid] <reden>",
+                    "permissions": "LEDEN VERWIJDEREN",
+                    "short": "Trapt een lid",
+                    "long": "Trapt iemand van de server. Je kan een vermelding, naam of ID gebruiken om een lid te kizen. Example: ;kick Auxim\nAls laatste kan je ook een reden bijsluiten voor het Audit-Logboek."
+                },
+                "help": {
+                    "usage": "<pagina nummer, categorie of commando naam>",
+                    "short": "Laat dit commando zien",
+                    "long": "Dit commando laat het help commando zien. Dat je dit echt moet vragen ben je dom ofzo?\nJe kan een pagina nummer, categorie of commandonaam invoeren om de betreffende pagina of het betreffende commando in te zien!"
+                },
+                "info": {
+                    "short": "Informatie over de bot"
+                },
+                "ping": {
+                    "short": "RIEEEEEEEEE"
+                },
+                "settings": {
+                    "usage": "<instellingsnummer>",
+                    "permissions": "STADTHOUDER",
+                    "short": "Verander de instellingen"
+                },
+                "userinfo": {
+                    "usage": "<gebruiker>",
+                    "short": "Laat info over jezelf of anderen zien"
+                },
+                "alva": {
+                    "usage": "[gebruikers] <tijd> <reden>",
+                    "short": "Geef iemand Alva",
+                    "permissions": "STADTHOUDER"
+                },
+                "ridderen": {
+                    "usage": "[gebruikers] <tijd> <reden>",
+                    "short": "Geef iemand Ridder",
+                    "permissions": "STADTHOUDER"
+                },
+                "spanjoleren": {
+                    "usage": "[gebruikers] <tijd> <reden>",
+                    "short": "Geef iemand Spanjool",
+                    "permissions": "STADTHOUDER"
+                },
+                "kopdicht": {
+                    "usage": "[gebruikers] <tijd> <reden>",
+                    "short": "Geef iemand Kop Dicht",
+                    "permissions": "STADTHOUDER"
+                },
+                "ontalva": {
+                    "usage": "[gebruikers] <reden>",
+                    "short": "Neem iemands Alva weg",
+                    "permissions": "STADTHOUDER"
+                },
+                "ontridderen": {
+                    "usage": "[gebruikers] <reden>",
+                    "short": "Neem iemands Ridder weg",
+                    "permissions": "STADTHOUDER"
+                },
+                "ontspanjoleren": {
+                    "usage": "[gebruikers] <reden>",
+                    "short": "Neem iemands Spanjool weg",
+                    "permissions": "STADTHOUDER"
+                },
+                "ontkopdicht": {
+                    "usage": "[gebruikers] <reden>",
+                    "short": "Neem iemands Kop Dicht weg",
+                    "permissions": "STADTHOUDER"
+                },
+                "bevoegdgezag": {
+                    "usage": "[bericht]",
+                    "short": "Maak een officieel bericht",
+                    "permissions": "STADTHOUDER"
+                },
+                "krab": {
+                    "short": "HAAN IS HOOG"
+                },
+                "artikel5": {
+                    "short": "Douw je stadt penis ff naar buiten"
+                },
+                "eend": {
+                    "short": "haha eent"
+                }
+            },
+            "embed": "Schakel Links Insluiten in voor betere reacties!"
+        },
+        "settings": {
+            "title": "Instellingen",
+            "list": "1. Prefix\n\nType `exit` to cancel!",
+            "canceled": "Okiedokie, geannuleerd!",
+            "not_number": "Argument voor instellingen moet een nummer zijn!",
+            "already_open": "Instellingen zijn al open. Scroll gewoon een beetje omhoog luie flikker!",
+            "prefix": {
+                "change": "Do you want to change the bot prefix in this server? The current Prefix is `%s`. Type `yes` or `no`!",
+                "change_to": "What do you want to change the prefix to?",
+                "set": "Prefix has been set to %s. Note that you can always mention me if you forget your prefix!"
+            }
+        }
+    },
+    "errors": {
+        "no_member": "You must supply a member for this command! Choose a member by mentioning, typing their name or typing their ID!",
+        "not_found": "Sorry, I could not find this member! Is this member in your server, and did you type their name correctly?",
+        "no_perms": "You must be a staff member to use this!",
+        "cannot_apply_role": "I cannot add or remove the %s role! Please check if I have `MANAGE ROLES` and the %s role is below my highest role!"
+    },
+    "prefix": "Hoi, jouw prefix is: **%s**",
+}

@@ -1,0 +1,14 @@
+discord
+pytz
+redis
+git+https://github.com/Altdentifier/discord.py
+requests
+pymongo
+aiohttp
+sentry_sdk
+blinker
+uvloop
+dateparser
+websockets
+asyncio-nats-client
+ujson

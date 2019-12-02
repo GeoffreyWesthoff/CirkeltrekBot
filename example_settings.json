@@ -1,0 +1,11 @@
+{
+  "token": "yourtokenhere",
+  "description": "CirkeltrekBot",
+  "owner": youridhere,
+  "prefix": ";",
+  "status": "spanjool tijd",
+  "mongo": ["127.0.0.1", 27017],
+  "redis": ["127.0.0.1", 6379],
+  "nats": ["nats://127.0.0.1:4222"],
+  "memer_token": "https://dankmemer.services token here"
+}
